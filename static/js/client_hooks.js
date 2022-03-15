@@ -43,6 +43,7 @@ exports.postAceInit = function (hook_name, args, cb) {
     $("#exportworda").attr("href", pad_root_path + "/export/doc" + sessionTokenParam);
     $("#exportpdfa").attr("href", pad_root_path + "/export/pdf" + sessionTokenParam);
     $("#exportopena").attr("href", pad_root_path + "/export/odt" + sessionTokenParam);
+    $("#exportmarkdowna").attr("href", pad_root_path + "/export/markdown" + sessionTokenParam);
 
     return cb();
 }
